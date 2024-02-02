@@ -19,8 +19,8 @@ const Button:React.FC <ButtonProps> = ({
     const {pending} = useFormStatus()
 
     return(
-        <Button className="bg-gray-700 text-white py-1 px-3 shadow rounded-md" disabled={disabled} onclick={onclick} type={type} aria-disabled={pending} >
+        <button className="bg-gray-700 text-white py-1 px-3 shadow rounded-md" disabled={disabled} onClick={onClick} type={type} aria-disabled={pending} >
             {Children}
-        </Button>
+        </button>
     )
 }

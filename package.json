@@ -13,6 +13,7 @@
     "@prisma/client": "^5.8.1",
     "@types/bcrypt": "^5.0.2",
     "bcrypt": "^5.1.1",
+    "clsx": "^2.1.0",
     "icons": "^1.0.0",
     "next": "14.1.0",
     "next-auth": "^4.24.5",
