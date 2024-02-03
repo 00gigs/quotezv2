@@ -44,7 +44,7 @@ const Navbar: React.FC<NavbarProps> = ({user}) => {
             <div className='main-container border-b border-1 flex justify-between items-center py-2 relative'>
                 <Link href={'/'}>
                     <div className='flex gap-1 items-center text-xl font-medium text-black'>
-                        <h1>C<i>tyle</i>SS</h1>
+                        <h1>C<i>Style</i>S</h1>
                         <TbBracketsAngleOff />
                     </div>
                 </Link>

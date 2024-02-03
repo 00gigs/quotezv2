@@ -7,7 +7,7 @@ interface inputProps{
     disabled?:boolean
 }
 
-const input:React.FC<inputProps> = (
+const Input:React.FC<inputProps> = (
     {
         label,
         id,
@@ -39,3 +39,4 @@ const input:React.FC<inputProps> = (
         </div>
     )
 }
+export default Input
