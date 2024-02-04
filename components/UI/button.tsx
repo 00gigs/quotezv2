@@ -1,10 +1,10 @@
 'use client'
 
-import React, { Children } from "react"
+import React from "react"
 import { useFormStatus } from "react-dom"
 interface ButtonProps {
     type?: "button" | "submit" | "reset" ;
-    Children:React.ReactNode
+    children:React.ReactNode
     onClick?:React.MouseEventHandler<HTMLButtonElement>
     disabled?:boolean
     
@@ -12,7 +12,7 @@ interface ButtonProps {
 
 const Button:React.FC <ButtonProps> = ({
     type,
-    Children,
+    children,
     onClick,
     disabled,
 }) =>{
@@ -20,7 +20,7 @@ const Button:React.FC <ButtonProps> = ({
 
     return(
         <button className="bg-gray-700 text-white py-1 px-3 shadow rounded-md" disabled={disabled} onClick={onClick} type={type} aria-disabled={pending} >
-            {Children}
+            {children}
         </button>
     )
 }

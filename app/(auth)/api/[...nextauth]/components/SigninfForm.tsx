@@ -3,7 +3,7 @@ import React from 'react'
 const SigninfForm = () => {
   return (
     <div>
-        Sign in
+        Log in
     </div>
   )
 }
