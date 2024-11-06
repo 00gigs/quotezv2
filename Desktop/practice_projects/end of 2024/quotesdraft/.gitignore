@@ -1,0 +1,6 @@
+.env
+node_modules/
+back/node_modules/
+back/package-lock/
+back/package/
+
