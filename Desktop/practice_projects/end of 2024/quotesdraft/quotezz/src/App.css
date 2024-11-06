@@ -1,0 +1,22 @@
+/*button fill up fx*/
+.buttonFx {
+  position: relative; /* Required for the pseudo-element positioning */
+  overflow: hidden; /* Ensure the pseudo-element is contained within the button */
+}
+
+.buttonFx::after {
+  content: ""; /* Required for the pseudo-element */
+  position: absolute; /* Required for the pseudo-element */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0; /* Start with no height */
+  background-color: #23b24b9b; /* Set the desired background color here */
+  transition: height 0.6s; /* Smooth transition of height */
+}
+
+.buttonFx:hover::after {
+  height: 100%; /* Fill the entire button height */
+}
+
+
