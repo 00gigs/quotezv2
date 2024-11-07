@@ -1,5 +1,5 @@
 import NextAuth from 'next-auth'
-import authOptions from '../../../../lib/configs/auth/authOptions'
+import authOptions from '../app/(auth)/api/[...nextauth]/route.tsx'
 
 const handler = NextAuth(authOptions)
 
